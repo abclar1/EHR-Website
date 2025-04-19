@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>RCC Login</title>
+
+    <link rel="stylesheet" href="/css/login.css" />
+    <script src="/scripts/login.js" defer></script>
+</head>
+<body>
+  <div class="login-container">
+        <div class="tab-header">
+            <button class="tab-btn active" id="patientTab">Patient Login</button>
+            <button class="tab-btn" id="providerTab">Provider Login</button>
+        </div>
+
+        <div class="tab-content" id="patient" style="display: block;">
+            <form action="#" method="POST">
+                <div class="form-group">
+                <label for="patient-username">Username</label>
+                <input type="text" id="patient-username" name="username" required />
+                </div>
+                <div class="form-group">
+                <label for="patient-password">Password</label>
+                <input type="password" id="patient-password" name="password" required />
+                </div>
+                <button type="submit" class="login-btn">Login as Patient</button>
+            </form>
+        </div>
+
+        <div class="tab-content" id="provider" style="display: none;">
+            <form action="#" method="POST">
+                <div class="form-group">
+                <label for="provider-username">Username</label>
+                <input type="text" id="provider-username" name="username" required />
+                </div>
+                <div class="form-group">
+                <label for="provider-password">Password</label>
+                <input type="password" id="provider-password" name="password" required />
+                </div>
+                <button type="submit" class="login-btn">Login as Provider</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
