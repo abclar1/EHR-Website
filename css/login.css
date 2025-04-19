@@ -37,6 +37,7 @@ a {
 
 /* Login Container */
 .login-container {
+    margin-top: 60px;
     background-color: #ffffff;
     padding: 2rem;
     border-radius: 12px;
@@ -121,4 +122,15 @@ input[type="password"] {
 
 .tab-content.active {
     display: block;
+}
+
+.back-home-button{
+    margin-top: 20px;
+    background-color: black;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.back-home-button a{
+    font-size: 12px;
 }
