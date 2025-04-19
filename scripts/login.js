@@ -55,7 +55,7 @@ patientForm.addEventListener('submit', function(event) {
     const password = event.target.querySelector('#patient-password').value;
 
     if (checkCredentials(username, password, 'patient')) {
-        alert('Login successful as Patient');
+        alert('Login successful as Patient. Two factor authentication method is called here');
         window.location.href = 'patient-dashboard.html';
     } else {
         alert('Invalid username or password');
@@ -70,7 +70,7 @@ providerForm.addEventListener('submit', function(event) {
     const password = event.target.querySelector('#provider-password').value;
 
     if (checkCredentials(username, password, 'provider')) {
-        alert('Login successful as Provider');
+        alert('Login successful as Provider. Two factor authentication method is called here');
         window.location.href = 'provider-dashboard.html';
     } else {
         alert('Invalid username or password');
