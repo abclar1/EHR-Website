@@ -6,21 +6,23 @@
     padding: 0px;
 }
 h1{
-
+    color: rgb(204, 0, 0);
+    font-size: 120%;
 }
 h2{
-
+    color: rgb(102, 0, 0);
+    font-size: 100%;
 }
 h3{
-
+    font-size: 100%;
 }
 p{
-
+    font-size: 100%;
 }
 a{
     text-decoration: none;
-    font-size: 12px;
     color: white;
+    font-size: 100%;
 }
 
 /*#region Main Navigation*/	
@@ -40,9 +42,11 @@ a{
 .logo {
     width: 50px;
     margin-right: 0px;
+    margin-left: -15px
 }
 
 .main-nav-list-item-link {
+    font-size: 12px;
     margin: 0 1vw;
     padding: 5px;
     color: white;
@@ -50,6 +54,7 @@ a{
 }
 
 .main-nav-list-item-login-link {
+    font-size: 12px;
     padding: 6px 16px;
     background-color: rgb(102, 0, 0);
     border-radius: 15px;
@@ -68,3 +73,44 @@ a{
     transition: background-color 0.3s ease;
 }
 /*#endregion Main Navigation*/
+
+/*#region Hero Section*/
+.hero-container {
+    position: relative;
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    display: block;
+    min-height: 200px;
+    min-width: 600px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: left;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+    max-height: 50px;
+}
+.hero-text button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background-color 0.3s ease;
+}
+.hero-text button:hover {
+    background-color: rgb(153, 0, 0);
+}
+/*#endregion Hero Section*/
