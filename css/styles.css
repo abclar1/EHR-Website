@@ -7,7 +7,7 @@
 }
 h1{
     color: rgb(204, 0, 0);
-    font-size: 120%;
+    font-size: 110%;
 }
 h2{
     color: rgb(102, 0, 0);
@@ -48,7 +48,7 @@ a{
 .main-nav-list-item-link {
     font-size: 12px;
     margin: 0 1vw;
-    padding: 5px;
+    padding: 4px;
     color: white;
     text-decoration: none;
 }
@@ -114,3 +114,146 @@ a{
     background-color: rgb(153, 0, 0);
 }
 /*#endregion Hero Section*/
+
+/*#region About Section*/
+.about{
+    width: 100%;
+    height: 100%;
+    background-image: url(/images/carbon-fiber-background.png);
+    padding-bottom: 20px;
+}
+.about h2 {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+  
+.about h3 {
+    padding-left: 50px;
+    font-size: 1rem;
+    color: rgb(204, 0, 0);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+  
+.about p {
+    padding-left: 50px;
+    max-width: 800px;
+    font-size: 0.7rem;
+    line-height: 1.8;
+    color: #dddddd;
+    text-align: left;
+}
+/*#endregion About Section*/
+
+/*#region Services Section*/
+.services {
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* white background */
+}
+
+.services h2 {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: #000000; /* dark text */
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.services h3 {
+    padding-left: 50px;
+    font-size: 1rem;
+    color: rgb(153, 0, 0); /* deep red for contrast */
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.service-group {
+    padding-left: 50px;
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.service-group h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.3rem;
+}
+
+.service-group ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+.service-group li {
+    font-size: 0.7rem;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+    color: #333333;
+}
+
+/*#endregion Services Section*/
+
+/*#region Locations Section*/
+.locations {
+    width: 100%;
+    height: 100%;
+    background-color: #000000; /* black background */
+}
+
+.locations h2 {
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.locations h3 {
+    padding-left: 50px;
+    font-size: 1rem;
+    color: rgb(204, 0, 0); /* red accent */
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.location-group {
+    padding-left: 50px;
+    max-width: 800px;
+    margin-bottom: 2rem;
+}
+
+.location-group h4 {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 0.3rem;
+}
+
+.location-group p,
+.location-group li {
+    font-size: 0.7rem;
+    line-height: 1.8;
+    color: #dddddd;
+    margin-bottom: 0.5rem;
+}
+
+.location-group ul {
+    list-style-type: disc;
+    padding-left: 1rem;
+}
+
+/*#endregion Locations Section*/
