@@ -1,4 +1,8 @@
-/* login.css */
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -11,6 +15,27 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: rgb(204, 0, 0);
+    font-size: 110%;
+    text-align: center; /* Centers the header */
+}
+
+h2 {
+    color: rgb(102, 0, 0);
+    font-size: 100%;
+}
+
+h3, p, a {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Login Container */
 .login-container {
     background-color: #ffffff;
     padding: 2rem;
@@ -18,8 +43,17 @@ body {
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     width: 100%;
     max-width: 400px;
+    text-align: center; /* Centers everything inside the login container */
 }
 
+.login-container img {
+    width: 100px; /* You can adjust the size of the logo */
+    height: auto;
+    margin: 20px 0; /* Space between the image and the heading */
+    border-radius: 12px;
+}
+
+/* Tab Header */
 .tab-header {
     display: flex;
     justify-content: space-around;
@@ -34,13 +68,15 @@ body {
     border-radius: 8px;
     font-weight: bold;
     transition: background-color 0.3s ease;
+    font-size: 0.9rem;
 }
 
 .tab-btn.active {
-    background-color: #1976d2;
-    color: #fff;
+    background-color: rgb(204, 0, 0);
+    color: white;
 }
 
+/* Form Styles */
 .form-group {
     margin-bottom: 1rem;
 }
@@ -49,6 +85,7 @@ label {
     display: block;
     margin-bottom: 0.5rem;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 
 input[type="text"],
@@ -58,13 +95,14 @@ input[type="password"] {
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
+    font-size: 0.9rem;
 }
 
 .login-btn {
     width: 100%;
     padding: 0.75rem;
-    background-color: #1976d2;
-    color: #fff;
+    background-color: rgb(204, 0, 0);
+    color: white;
     border: none;
     border-radius: 8px;
     font-size: 1rem;
@@ -73,15 +111,14 @@ input[type="password"] {
 }
 
 .login-btn:hover {
-    background-color: #125ea3;
+    background-color: rgb(153, 0, 0);
 }
 
-@media (max-width: 500px) {
-    .tab-btn {
-        padding: 0.5rem 1rem;
-    }
+/* Tab Content */
+.tab-content {
+    display: none;
+}
 
-    .login-container {
-        padding: 1.5rem;
-    }
+.tab-content.active {
+    display: block;
 }
