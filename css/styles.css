@@ -1,0 +1,70 @@
+/* Color Scheme */
+
+/* Global Styles */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+
+}
+h2{
+
+}
+h3{
+
+}
+p{
+
+}
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+/*#region Main Navigation*/	
+.main-nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(204, 0, 0);
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    margin-right: 0px;
+}
+
+.main-nav-list-item-link {
+    margin: 0 1vw;
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav-list-item-login-link {
+    padding: 6px 16px;
+    background-color: rgb(102, 0, 0);
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.main-nav-list-item-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.main-nav-list-item-login-link:hover {
+    background-color: rgb(153, 0, 0);
+    transition: background-color 0.3s ease;
+}
+/*#endregion Main Navigation*/
