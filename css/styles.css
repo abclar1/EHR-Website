@@ -308,7 +308,7 @@ a {
 
 /*#endregion Footer*/
 
-/*#region Footer*/
+/*#region Back To Top Button */
 #backToTopBtn {
     position: fixed;
     bottom: 20px;
@@ -319,7 +319,7 @@ a {
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 16px;
-    display: none; /* Hidden initially */
+    display: none;
     cursor: pointer;
 }
 
@@ -328,4 +328,4 @@ a {
 }
 
   
-/*#endregion Footer*/
+/*#endregion Back To Top Button */

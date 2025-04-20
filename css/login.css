@@ -48,7 +48,7 @@ a {
 }
 
 .login-container img {
-    width: 100px; /* You can adjust the size of the logo */
+    width: 100px;
     height: auto;
     margin: 20px 0; /* Space between the image and the heading */
     border-radius: 12px;
